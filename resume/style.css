@@ -8,46 +8,94 @@ body{
 	font-weight: 400;
 }
 
+#container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
 /*name at the top*/
-h1{
+#name{
 	font-size: 3em;
 	text-transform: uppercase;
 	text-align: center;
 	color: #33485e;
+	border-bottom: 1px solid #33485e;
+	width: 60%;
+	min-width: 300px;
+	margin: 0 auto;
 }
+#menu {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	display: inline;
 
-strong {
+}
+/*took a weird amount of time to get this right*/
+#title {
 	color: #33485e;
 	text-transform: uppercase;
 	font-size: 1.5em;
+	font-weight: 600;
+	text-align: center;
+	margin: 20px 0px 0px;
 }
+
 /*main categories*/
-h2{
+#sectionheader{
 	font-size: 1.5em;
 	text-transform: uppercase;
 	color: #fff;
 	background-color: #33485e;
+	margin: 20px 0px 10px;
+	width: 70%;
+	min-width: 300px;
 }
 /*job title*/
-h3{
-	font-size: 1.5em;
+#jobtitle{
+	font-size: 1.25em;
 	font-weight: 600;
 }
+
 /*employer or organization*/
-h4{
+#organization{
 	font-size: 1.5em;
 	font-weight: 400;
 }
+
 /*dates active at job*/
-h5{
+#date {
 	font-size: 1em;
 	font-weight: 400;
 	text-transform: italic;
+	margin: 2px 0px 0px;
 }
+
 /*conatct info, skills and education info*/
-ul{
+ul {
 	font-size: 1em;
 }
 
+/*had to correct spelling in html*/
+#description {
+	margin: 10px 0px;
+}
+
+#degrees {
+	margin: 5px 0px 0px;
+}
+
+#do {
+	margin: 5px 0px 0px;
+}
+
+#top {
+	width: 60%;
+	min-width: 300px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
 
 
