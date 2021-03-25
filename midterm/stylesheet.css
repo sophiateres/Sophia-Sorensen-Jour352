@@ -1,0 +1,62 @@
+#content {
+	margin: 0 auto;
+	width: 900px;
+}
+/*these are the font specifications you put in the assignment sheet, as much
+as it pains me to follow these specific instructions (not sure if I'm just
+blind, which is a possibility, but 12 pt font on a web page feels a bit too
+small)*/
+p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+h1 {
+	font-family: Georgia, Garamond, serif;
+	font-size: 35px;
+}
+
+#byline {
+	font-family: Georgia, Garamond, serif;
+	font-size: 15px;
+}
+
+h2 {
+	font-family: Georgia, Garamond, serif;
+	font-size: 22px;
+}
+
+blockquote {
+	font-size: 35px;
+	padding-left: 15px;
+	border-left: 4px solid #000000;
+}
+
+#caption1 {
+	color: #696969;
+	margin-left: 100px;
+}
+
+#caption2 {
+	color: #696969;
+	margin-left: 200px;
+}
+
+#caption3 {
+	color: #696969;
+	margin-left: 100px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#links {
+	font-family: Georgia, Garamond, serif;
+	font-size: 18px;
+	color: #000000;
+	margin-left: 50px;
+	font-weight: bold;
+	
+}
