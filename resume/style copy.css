@@ -1,0 +1,243 @@
+/*styles for my resume*/
+
+
+/*general guidelines*/
+body{
+	font-family:'Martel Sans', sans-serif;
+	font-style: normal;
+	font-weight: 350;
+	font-size: 20px;
+	line-height: 30px;
+	color: #31515C;
+}
+.header {
+	align: center;
+	width: 100%;
+}
+
+#container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+
+#menu {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	display: inline;	
+}
+
+#github {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 1002px;
+	top: 290px;
+}
+
+#twitter {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 772px;
+	top: 290px;
+}
+
+#email {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 332px;
+	top: 290px;
+}
+
+#linkedin {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 552px;
+	top: 290px;
+}
+
+
+/*main categories*/
+#sectionheader{
+	text-indent: 5%;
+	font-family:'Martel Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 70px;
+	color: #31515C;
+}
+
+#main {
+	position: absolute;
+	width: 794px;
+	height: 120px;
+	left: 125px;
+	top: 389px;
+	background: #FEEEBE;
+	border-radius: 25px;
+
+}
+
+#first {
+	position: absolute;
+	width: 794px;
+	height: 280px;
+	left: 125px;
+	top: 520px;
+	border-radius: 25px;
+	background: rgba(251, 188, 4, 0.26);
+}
+
+#second {
+	position: absolute;
+	width: 794px;
+	height: 285px;
+	left: 125px;
+	top: 810px;
+
+	background: rgba(251, 188, 4, 0.26);
+	border-radius: 25px;
+}
+
+#third {
+	position: absolute;
+	width: 794px;
+	height: 250px;
+	left: 125px;
+	top: 1105px;
+
+	background: rgba(251, 188, 4, 0.26);
+	border-radius: 25px;	
+}
+
+#fourth {
+	position: absolute;
+	width: 794px;
+	height: 250px;
+	left: 125px;
+	top: 1365px;
+
+	background: rgba(251, 188, 4, 0.26);
+	border-radius: 25px;	
+}
+
+#education {
+	position: absolute;
+	width: 407px;
+	height: 455px;
+	left: 938px;
+	top: 389px;
+
+	background: rgba(179, 222, 229, 0.45);
+	border-radius: 25px;
+}
+
+#skills {
+	position: absolute;
+	width: 407px;
+	height: 275px;
+	left: 938px;
+	top: 875px;
+
+	background: rgba(179, 222, 229, 0.45);
+	border-radius: 25px;
+}
+
+#awards {
+	position: absolute;
+	width: 407px;
+	height: 445px;
+	left: 938px;
+	top: 1175px;
+
+	background: rgba(179, 222, 229, 0.45);
+	border-radius: 25px;
+}
+
+/*job title*/
+#jobtitle{
+	font-family:'Martel Sans', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 60px;
+	align-items: flex-end;
+	color: #31515C;
+	text-indent: 2%;
+}
+
+/*employer or organization*/
+#organization{
+	font-family:'Martel Sans', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 35px;
+	color: #31515C;
+	text-indent: 7%;
+}
+
+/*dates active at job*/
+#date {
+	font-family:'Martel Sans', sans-serif;
+	font-style: normal;
+	font-weight: 350;
+	font-size: 18px;
+	line-height: 30px;
+	text-transform: italic;
+	color: #31515C;
+	text-indent: 7%;
+}
+
+p {
+	margin-left:20px;
+}
+/*conatct info, skills and education info*/
+ul {
+	font-size: 1em;
+}
+
+/*had to correct spelling in html*/
+#description {
+	font-family:'Martel Sans', sans-serif;
+	font-style: normal;
+	font-weight: 350;
+	font-size: 20px;
+	line-height: 30px;
+	color: #31515C;
+
+}
+
+#degrees {
+	font-family::'Martel Sans', sans-serif;
+	font-style: normal;
+	font-weight: 350;
+	font-size: 24px;
+	line-height: 44px;
+	color: #31515C;
+}
+
+#do {
+	font-family::'Martel Sans', sans-serif;
+	font-style: normal;
+	font-weight: 350;
+	font-size: 24px;
+	line-height: 44px;
+	color: #31515C;
+}
+
+#top {
+	width: 60%;
+	min-width: 300px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+
