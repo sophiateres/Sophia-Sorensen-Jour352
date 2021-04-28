@@ -1,0 +1,154 @@
+.container {
+	font-family: Georgia, 'Roboto', sans-serif;
+	margin: 0 auto;
+	width: 900px;
+}
+
+.navbar {
+    position: relative;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+	
+.bg-light {
+	background-color: #f8f9fa!important;
+}
+
+#heading {
+	position: relative;
+	text-align: top;
+	width: relative;
+	font-size: 2rem;
+	  
+}
+
+h1 {
+	font-family: Georgia, 'Roboto', sans-serif;
+	font-size: 2rem;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+	
+}
+
+#byline {
+	font-family: Georgia, 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #696969;
+	font-style: italic;
+}
+h2 {
+	font-family: Georgia, 'Roboto', sans-serif;
+	font-size: 18px;
+}
+/* panel layout mechanics */
+.panel-wrap {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 30em;
+  transform: translateX(100%);
+  transition: .3s ease-out;
+}
+.panel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  padding: 1em;
+}
+
+/* simulate panel state control --
+this can also be triggered by a 
+class name added to the body tag. 
+Just using a checkbox sibling here
+for simplicity
+*/ 
+[type="checkbox"]:checked ~ .panel-wrap {
+  transform: translateX(0%);
+}
+
+
+/* demo display */
+*,*:before, *:after {box-sizing: border-box;}
+
+p {
+	font-family: Georgia, 'Roboto', sans-serif;
+	font-size: 18px;
+	
+}
+
+li {
+	font-family: Georgia, 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+[type="checkbox"] {
+  font-size: 1em;
+}
+
+
+p {
+	font-family: Georgia, 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+#caption {
+	font-family: Georgia, 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #696969;
+	position: relative;
+
+
+}
+
+h4 {
+	font-family: Georgia, 'Roboto', sans-serif;
+	font-size: 24px;
+	padding: 1em;
+	font-style: italic;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+	background-color: #000000;
+	text-align: center;
+	padding: 3px;
+	color: white;
+}
+
+@media only screen and (min-width: 1600px){
+	
+.top-box {
+    height: 400px;
+    
+   
+}
+}
+@media only screen and (max-width: 600px){
+	
+	.icon img {
+	
+		height:30px;
+	
+}
+}
