@@ -4,6 +4,7 @@
 	width: 900px;
 }
 
+
 img {
 	
 	width: 100%;
@@ -85,3 +86,23 @@ footer {
 	padding: 3px;
 	color: white;
 }
+
+
+@media only screen and (min-width: 1600px){
+	
+.top-box {
+    height: 400px;
+	}
+
+}
+
+@media only screen and (max-width: 600px){
+	
+	.icon img {
+	
+		height:30px;
+	
+	}
+    
+}   
+
